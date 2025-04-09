@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savusavu Motor Winders</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" media="print" onload="this.media='all'">
+    <!---<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">--->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      
+</head>
+<body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo7.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">CONTACT</a></li>
+          </ul>
+          
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>  
+  <div class= "text-box">
+    <h1>Savusavu Motor Winders</h1>
+    <p>Specialized In: Domestic to Industrial, Motor Winding, Auto Electrical,<br>Marine Electrical, Electrical Appliance and Generator Repairs.
+    </p>
+    <a href="" class="hero-btn">Visit Us To Know More</a>
+  </div>
+    
+    </section>
+  <!----Course---->
+  
+  
+ <!-----Javascript for Toggle Menu------> 
+<script>
+ 
+  var navLinks = document.getElementById("navLinks");
+  
+  function showMenu(){
+    navLinks.style.right = "0";
+  }
+  function hideMenu(){
+    navLinks.style.right = "-200px";
+  }
+  
+</script>
+  
+</body>
+</html>
